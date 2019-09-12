@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="640" height="1136" class="MainScene" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<!--<w:Declarations>
+		<tween:TweenGroup id="animGroup">
+			<tween:TweenItem target="{anim}">
+				<tween:Set/>
+				<tween:To duration="500"/>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>-->
+	<e:Group id="group" width="640" height="1136" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Rect width="640" height="1136" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x281d1d"/>
+		<e:Group id="animGroup" width="640" height="1136" x="0" y="0" anchorOffsetY="0">
+		</e:Group>
+		<e:Group id="music_group" width="127.52" height="142.42" anchorOffsetX="0" anchorOffsetY="0" left="9" top="12">
+			<e:Image id="music_choose" source="music_png" x="14.5" y="32.330000000000005" scaleX="0.5" scaleY="0.5"/>
+			<e:Label text="选择歌曲" x="22.69" y="6.890000000000004" size="20" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Image id="startBtn" source="game_sheet_json.game_sheet" x="320" y="960" anchorOffsetX="186.5" anchorOffsetY="68"/>
+		<e:Image source="game_sheet_json.game_sheet_keybord" x="3" y="657"/>
+		<e:Image source="game_sheet_json.game_sheet_title" x="133.5" y="359"/>
+
+		<e:Image id="gp" source="gp_png" x="320" y="178" anchorOffsetX="100" anchorOffsetY="99"/>
+
+
+
+        
+    </e:Group>
+</e:Skin>

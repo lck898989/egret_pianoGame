@@ -1,0 +1,6 @@
+{"file":"game_sheet.png","frames":{
+"game_sheet_music":{"x":795,"y":137,"w":156,"h":160,"offX":0,"offY":1,"sourceW":156,"sourceH":161},
+"game_sheet_keybord":{"x":1,"y":1,"w":630,"h":160,"offX":2,"offY":2,"sourceW":633,"sourceH":163},
+"game_sheet":{"x":633,"y":1,"w":373,"h":134,"offX":0,"offY":2,"sourceW":373,"sourceH":136},
+"game_sheet_title":{"x":1,"y":163,"w":407,"h":100,"offX":1,"offY":2,"sourceW":408,"sourceH":102},
+"game_sheet_noMusic":{"x":633,"y":137,"w":160,"h":159,"offX":2,"offY":2,"sourceW":162,"sourceH":161}}}

@@ -1,0 +1,39 @@
+{
+  "engineVersion": "5.2.13",
+  "compilerVersion": "5.2.13",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "dragonBones"
+    },
+    {
+      "name": "WXCloudApi",
+      "path": "./libs/WXCloudApi"
+    },
+    {
+      "name": "egretmgobe",
+      "path": "./libs/egretmgobe"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="376" class="music_list_itemSkin" height="66" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="musicGroup">
+			<tween:TweenItem target="{image}">
+				<tween:Set/>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object scaleX="{0.6}" scaleY="{0.6}" rotation="{20}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250" ease="bounceOut">
+					<tween:props>
+						<e:Object scaleX="{0.5}" scaleY="{0.5}" rotation="{-10}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250" ease="bounceIn">
+					<tween:props>
+						<e:Object scaleX="{0.5}" scaleY="{0.5}" rotation="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+    <e:Group id="group" width="376" height="66">
+			<e:Rect width="376" height="66" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xc4afd8"/>
+			<e:Image id="image" source="note_png" x="24" y="33" scaleX="0.5" scaleY="0.5" anchorOffsetX="28" anchorOffsetY="28"/>
+			<e:Label id="musicName" text="天空之城" x="74" y="19" anchorOffsetX="0" width="184" bold="true" textColor="0xa30101" verticalAlign="middle" textAlign="left"/>
+			<e:Label id="author" text="久石让" x="287" y="21" anchorOffsetX="0" width="82" bold="true" textColor="0xA30101" verticalAlign="middle" textAlign="right" size="25"/>
+    </e:Group>
+</e:Skin>

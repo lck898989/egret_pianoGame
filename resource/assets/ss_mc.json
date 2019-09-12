@@ -1,0 +1,116 @@
+{
+    "res": {
+        "Sprite_5": {
+            "x": 1,
+            "y": 1,
+            "w": 18,
+            "h": 17
+        },
+        "Sprite_4": {
+            "x": 21,
+            "y": 1,
+            "w": 18,
+            "h": 17
+        },
+        "Sprite_3": {
+            "x": 41,
+            "y": 1,
+            "w": 18,
+            "h": 17
+        },
+        "Sprite_2": {
+            "x": 1,
+            "y": 20,
+            "w": 18,
+            "h": 17
+        },
+        "Sprite_1": {
+            "x": 1,
+            "y": 39,
+            "w": 18,
+            "h": 17
+        },
+        "Sprite_0": {
+            "x": 21,
+            "y": 20,
+            "w": 18,
+            "h": 17
+        },
+        "Sprite_7": {
+            "x": 41,
+            "y": 20,
+            "w": 18,
+            "h": 17
+        },
+        "Sprite_6": {
+            "x": 21,
+            "y": 39,
+            "w": 18,
+            "h": 17
+        }
+    },
+    "file": "ss_tex.png",
+    "mc": {
+        "NewProject": {
+            "frames": [
+                {
+                    "res": "Sprite_0",
+                    "y": -8,
+                    "duration": 1,
+                    "x": -9
+                },
+                {
+                    "res": "Sprite_1",
+                    "y": -8,
+                    "duration": 1,
+                    "x": -9
+                },
+                {
+                    "res": "Sprite_2",
+                    "y": -8,
+                    "duration": 1,
+                    "x": -9
+                },
+                {
+                    "res": "Sprite_3",
+                    "y": -9,
+                    "duration": 1,
+                    "x": -9
+                },
+                {
+                    "res": "Sprite_4",
+                    "y": -9,
+                    "duration": 1,
+                    "x": -9
+                },
+                {
+                    "res": "Sprite_5",
+                    "y": -9,
+                    "duration": 1,
+                    "x": -9
+                },
+                {
+                    "res": "Sprite_6",
+                    "y": -9,
+                    "duration": 1,
+                    "x": -9
+                },
+                {
+                    "res": "Sprite_7",
+                    "y": -9,
+                    "duration": 1,
+                    "x": -9
+                }
+            ],
+            "labels": [
+                {
+                    "end": 8,
+                    "frame": 1,
+                    "name": "Sprite"
+                }
+            ],
+            "frameRate": 24,
+            "events": []
+        }
+    }
+}
